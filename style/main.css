@@ -315,64 +315,57 @@ hr {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+    background-width:100%;
     
     }
-    @media screen and (max-width: 520px) {
-    .tile .tile-inner {
-    text-indent: 0;
-    white-space: normal;
-    overflow: visible;
-    color: #000044;
-    background-image: none;
-      }
-    }
     
-  @media screen and (min-width: 521px){
+    
+ 
   .tile.tile-2 .tile-inner {
-    background-image: url("img/letter-a.png"); }}
-  @media screen and (min-width: 521px){
+    background-image: url("img/letter-a.png"); }
+ 
   .tile.tile-4 .tile-inner {
-    background-image: url("img/letter-b.png"); }}
-  @media screen and (min-width: 521px){
+    background-image: url("img/letter-b.png"); }
+  
   .tile.tile-8 .tile-inner {
-    background-image: url("img/letter-c.png"); }}
-  @media screen and (min-width: 521px){
+    background-image: url("img/letter-c.png"); }
+ 
   .tile.tile-16 .tile-inner {
-    background-image: url("img/letter-d.png"); }}
-  @media screen and (min-width: 521px){
+    background-image: url("img/letter-d.png"); }
+  
   .tile.tile-32 .tile-inner {
-    background-image: url("img/letter-e.png"); }}
-  @media screen and (min-width: 521px){
+    background-image: url("img/letter-e.png"); }
+ 
   .tile.tile-64 .tile-inner {
-    background-image: url("img/letter-f.png"); }}
-  @media screen and (min-width: 521px){
+    background-image: url("img/letter-f.png"); }
+  
   .tile.tile-128 .tile-inner {
-    background-image: url("img/letter-g.png"); }}
+    background-image: url("img/letter-g.png"); }
     
   @media screen and (max-width: 520px) {
   .tile.tile-128 .tile-inner {
     font-size: 25px; } }
-  @media screen and (min-width: 521px){      
+   
   .tile.tile-256 .tile-inner {
-    background-image: url("img/letter-h.png"); }}
+    background-image: url("img/letter-h.png"); }
   @media screen and (max-width: 520px) {
   .tile.tile-256 .tile-inner {
     font-size: 25px; } }
-  @media screen and (min-width: 521px){
+ 
   .tile.tile-512 .tile-inner {
-    background-image: url("img/letter-i.png"); }}
+    background-image: url("img/letter-i.png"); }
   @media screen and (max-width: 520px) {
   .tile.tile-512 .tile-inner {
     font-size: 25px; } }
-  @media screen and (min-width: 521px){
+ 
   .tile.tile-1024 .tile-inner {
-    background-image: url("img/letter-j.png"); }}
+    background-image: url("img/letter-j.png"); }
   @media screen and (max-width: 520px) {
   .tile.tile-1024 .tile-inner {
     font-size: 15px; } }
-  @media screen and (min-width: 521px){
+ 
   .tile.tile-2048 .tile-inner {
-    background-image: url("img/letter-k.png"); }}
+    background-image: url("img/letter-k.png"); }
   @media screen and (max-width: 520px) {
   .tile.tile-2048 .tile-inner {
     font-size: 15px; } }    
